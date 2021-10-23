@@ -1,0 +1,75 @@
+/* to remove elements you can use keybinds with, uncomment the line below */
+/* @import "powerUser.css"; */
+
+/* changed tabs */
+
+.titlebar-spacer{
+  display: none;
+}
+
+.titlebar-buttonbox-container{
+  margin-right: 4px !important;
+}
+
+#tabbrowser-tabs{
+  padding: 3px !important;
+  margin-left: 2px !important;
+  margin-right: 2px !important;
+}
+
+:root {
+  --tab-min-height: 20px !important;
+  --tab-max-height: 20px !important;
+}
+
+.tab-close-button{
+  height: 15px !important;
+  width: 15px !important;
+  padding: 2px !important;
+}
+
+.tab-throbber-tabslist, .tab-throbber, .tab-icon-pending, .tab-icon-image, .tab-sharing-icon-overlay, .tab-icon-overlay {
+    height: 14px !important;
+    width: 14px !important;
+}
+
+.tab-background{
+  background-color: rgba( 66, 65, 76, 0.4) !important;
+}
+
+.tabbrowser-tab:hover > .tab-stack > .tab-background{
+  background-color: rgba( 66, 65, 76, 0.7) !important;
+}
+
+/* navbar size */
+#urlbar-input {
+  height: 15px !important;
+}
+
+#urlbar{
+  min-height: 23px !important;
+}
+
+.toolbarbutton-badge {
+  /* min-width: 10px !important; */
+}
+#nav-bar > .toolbarbutton-1{
+  padding: 0px !important;
+}
+
+.urlbar-page-action{
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.notification-anchor-icon{
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+/* bookmarks size */
+
+.bookmark-item{
+  padding-top: 1px !important;
+  padding-bottom: 1px !important;
+}

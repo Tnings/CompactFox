@@ -1,0 +1,19 @@
+/* This file removes elements you can use via keybinds */
+/* such as ctrl + r to reload a page */
+
+/* Hides Menu Buttons On MacOS */
+.titlebar-buttonbox-container{
+  display: none;
+}
+
+/* tab bar */
+.tab-close-button{ display: none !important; }
+
+#tabs-newtab-button{ display: none !important; }
+
+/* navbar */
+#reload-button, #stop-reload-button{ display: none !important; }
+
+#forward-button{ display: none !important; }
+
+#back-button{ display: none !important; }
