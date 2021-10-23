@@ -7,3 +7,5 @@ MacOSVibrant is a one file firefox modification that **only works on MacOS**. It
 I simple theme that compacts a lot of the UI elements, with an option in the userChrome to hide elements you can control with keybinds. I hope you enjoy it!
 
 —May
+
+
