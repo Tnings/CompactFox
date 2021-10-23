@@ -33,13 +33,22 @@
     width: 14px !important;
 }
 
-.tab-background{
+.tab-background:-moz-lwtheme-brighttext{
   background-color: rgba( 66, 65, 76, 0.4) !important;
 }
 
-.tabbrowser-tab:hover > .tab-stack > .tab-background{
+.tabbrowser-tab:-moz-lwtheme-brighttext:hover > .tab-stack > .tab-background{
   background-color: rgba( 66, 65, 76, 0.7) !important;
 }
+
+.tab-background{
+  background-color: rgba( 255, 255, 255, 0.9) !important;
+}
+
+.tabbrowser-tab:hover > .tab-stack > .tab-background{
+  background-color: rgba( 255, 255, 255, 0.4) !important;
+}
+
 
 /* navbar size */
 #urlbar-input {
